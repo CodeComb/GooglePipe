@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D857F037-C8F7-4ACB-9BF7-F34C35A68FB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DD4816B-AC7F-45F1-95B7-68CAF907144B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		Nuget.config = Nuget.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GooglePipe", "src\GooglePipe\GooglePipe.xproj", "{5CD2DC45-F65E-4235-8FDF-E67B5076BC3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD2DC45-F65E-4235-8FDF-E67B5076BC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD2DC45-F65E-4235-8FDF-E67B5076BC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD2DC45-F65E-4235-8FDF-E67B5076BC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD2DC45-F65E-4235-8FDF-E67B5076BC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CD2DC45-F65E-4235-8FDF-E67B5076BC3B} = {D857F037-C8F7-4ACB-9BF7-F34C35A68FB8}
+	EndGlobalSection
+EndGlobal

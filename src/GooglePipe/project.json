@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
+    "CodeComb.AspNet.ReverseProxy": "1.0.0"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel --server.urls=http://*:80"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Net.Http": "4.0.0.0"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.IO": "4.0.11-beta-23516",
+        "System.Console": "4.0.0-beta-23516",
+        "System.IO.Compression": "4.1.0-beta-23516",
+        "System.Net.Http": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516"
+      }
+    }
+  },
+
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}
