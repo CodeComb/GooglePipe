@@ -1,7 +1,5 @@
 # Google Pipe
 
---------------
-
 Google pipe 是基于ASP.Net Core 1.0开发的谷歌反向代理网站。
 
 演示网址：[http://www.gglink.pw](http://www.gglink.pw)
@@ -12,7 +10,7 @@ Google pipe 是基于ASP.Net Core 1.0开发的谷歌反向代理网站。
 
 这个GitHub仓库中存储的是源代码，不是发布版本，因此如果您欲直接使用源代码部署，可能需要安装相应的环境，如dnvm、dnx、dnu等必要软件，您可以参阅微软官方网站获得更多信息：[http://docs.asp.net](http://docs.asp.net)
 
-这份代码只有短短37行，即[Startup.cs](https://github.com/CodeComb/GooglePipe/blob/master/src/GooglePipe/Startup.cs)
+这份代码只有短短37行，即[Startup.cs](https://github.com/CodeComb/GooglePipe/blob/master/src/GooglePipe/Startup.cs)，只需要引用NuGet包：[CodeComb.AspNet.ReverseProxy](https://www.nuget.org/packages/CodeComb.AspNet.ReverseProxy)即可实现反向代理，支持泛域名。
 
 ```
 using System.Net;
