@@ -12,7 +12,7 @@ Google pipe 是基于ASP.Net Core 1.0开发的谷歌反向代理网站。
 
 这份代码只有短短37行，即[Startup.cs](https://github.com/CodeComb/GooglePipe/blob/master/src/GooglePipe/Startup.cs)，只需要引用NuGet包：[CodeComb.AspNet.ReverseProxy](https://www.nuget.org/packages/CodeComb.AspNet.ReverseProxy)即可实现反向代理，支持泛域名。
 
-```
+```c#
 using System.Net;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
