@@ -7,11 +7,11 @@
   "dependencies": {
     "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
     "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
-    "CodeComb.AspNet.ReverseProxy": "1.0.0"
+    "CodeComb.AspNet.ReverseProxy": "1.0.1"
   },
 
   "commands": {
-    "web": "Microsoft.AspNet.Server.Kestrel --server.urls=http://*:80"
+    "web": "Microsoft.AspNet.Server.Kestrel --server.urls=http://103.193.149.207:80"
   },
 
   "frameworks": {
